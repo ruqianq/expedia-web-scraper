@@ -1,4 +1,4 @@
-fname = raw_input("Enter file name: ")
+fname = raw_input("Enter file name: ")  #Ask user for input
 input = open(fname,"r")
 total_lst = list()
 tax_lst = list()
