@@ -1,6 +1,6 @@
 fname = raw_input("Enter file name: ")  #Ask user for input
 input = open(fname,"r")
-total_lst = list()
+total_lst = list() # creating a list
 tax_lst = list()
 for line in input:
    if "Total:	USD" in line :
