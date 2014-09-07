@@ -19,4 +19,4 @@ for line in input:
 	       tax_lst.append(tax_amt)
 matrix = [tax_lst,total_lst]
 for cols in zip(*matrix):
-    print " ".join(cols)
+    print " ".join(cols) # it is the end
